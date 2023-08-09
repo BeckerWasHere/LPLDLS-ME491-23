@@ -1,0 +1,47 @@
+[
+	{
+		"name": "GOOD NAME",
+		"key" : "w", 
+		"pins": [12, 25]
+	},
+	{
+		"name": "ROTATE LEFT",
+		"key" : "a", 
+		"pins": [12, 25]
+	},
+	{
+		"name": "ROTATE RIGHT",
+		"key" : "d", 
+		"pins": [12, 25]
+	},
+	{
+		"name": "DOUBLE SPEED",
+		"key" : "W", 
+		"pins": [12, 25]
+	},
+	{
+		"name": "OPEN BAY",
+		"key" : "g", 
+		"pins": [1, 12, 3, 9]
+	},
+	{
+		"name": "CLOSE BAY",
+		"key" : "G", 
+		"pins": [12, 25]
+	},
+	{
+		"name": "TURN ON LIGHT ONE",
+		"key" : "u", 
+		"pins": [23]
+	},
+	{
+		"name": "TURN ON LIGHT TWO",
+		"key" : "i", 
+		"pins": [24]
+	},
+	{
+		"name": "TURN ON BOTH LIGHTS",
+		"key" : "o", 
+		"pins": [23, 24]
+	}
+]
