@@ -1,0 +1,82 @@
+[
+	{
+		"name": "FORWARD",
+		"key" : "w", 
+		"pins": [12, 25, 3]
+	},
+	{
+		"name": "LEFT",
+		"key" : "a", 
+		"pins": [12, 25.5, 13]
+	},
+	{
+		"name": "RIGHT",
+		"key" : "d", 
+		"pins": [12, 25, 17]
+	},
+	{
+		"name": "DROP",
+		"key" : "K",
+		"pins": [12, 25, 4]
+	},
+	{
+		"name": "PLACE_HOLDER1",
+		"key" : "Q",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER2",
+		"key" : "W",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER3",
+		"key" : "E",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER4",
+		"key" : "R",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER5",
+		"key" : "T",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER6",
+		"key" : "Y",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER7",
+		"key" : "U",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER8",
+		"key" : "I",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER9",
+		"key" : "O",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER10",
+		"key" : "P",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER11",
+		"key" : "A",
+		"pins": []
+	},
+	{
+		"name": "PLACE_HOLDER12",
+		"key" : "S",
+		"pins": []
+	}
+]

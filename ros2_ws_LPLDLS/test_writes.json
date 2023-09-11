@@ -1,0 +1,34 @@
+[
+    {
+        "field1": "Name Number One",
+        "field2": [
+            12,
+            45,
+            78
+        ],
+        "field3": true
+    },
+    {
+        "field1": "Name Number Two",
+        "field2": [
+            666,
+            45,
+            78
+        ],
+        "field3": true
+    },
+    {
+        "field1": "Name Number Three",
+        "field2": [
+            12
+        ],
+        "field3": true
+    },     
+    {
+        "field1": "Name Number Four",
+        "field2": [
+            12
+        ],
+        "field3": true
+    }
+]

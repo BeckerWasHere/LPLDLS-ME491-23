@@ -25,7 +25,7 @@ def generate_commands():
     #open command file
     #extract data
     try:
-        with open("commands.json", "r") as f:
+        with open("command_key_groups.json", "r") as f:
             # Load the JSON data from the file
             data = json.load(f)
     except:
@@ -50,7 +50,7 @@ def generate_commands():
 
     key_pattern = re.compile("^[a-zA-Z]+$")
 
-
+    # TODO: check doubles of the same key, same name, and no empty pins
     for command in data:
         #check the number of commands
         counted_commands += 1
@@ -336,6 +336,22 @@ class DirectControlPublisher(Node):
         # self.get_logger().info('Publishing: "%s"' % msg.data)
         # self.i += 1
 
+
+# def main(stdscr):
+    
+#     t_user_input = threading.Thread(target=handle_key_usage_removal, args = [stdscr], daemon = False)
+#     t_user_input.start()
+#     t_render_screen = threading.Thread(target=handle_key_usage_removal, args = [stdscr], daemon = True)
+#     t_render_screen.start()
+#     t_handle_connection_status = threading.Thread(target=handle_key_usage_removal, args = [], daemon = True)
+#     t_handle_connection_status.start()
+
+#     t_user_input.join()
+
+
+curses.wrapper(direct_control)
+
+"""
 if __name__ == '__main__':
 
     pass
@@ -354,5 +370,7 @@ curses.wrapper(direct_control)
 # if __name__ == '__main__':
 #     print("inside the wierd if statment")
 #     #main()
+"""
+
 
 
